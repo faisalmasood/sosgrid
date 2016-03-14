@@ -18,7 +18,7 @@
 
     <hr />
     <div style="text-align:right">
-        <a href="http://github.com/spjeff/sosgrid">by SPJeff on GitHub</a>
+        <a href="http://github.com/spjeff/sosgrid" target="_blank">by SPJeff on GitHub</a>
     </div>
 </asp:Content>
 

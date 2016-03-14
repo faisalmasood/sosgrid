@@ -102,7 +102,6 @@ namespace SOSGrid.Layouts.SOSGrid
         {
             if (e.Row.RowType == DataControlRowType.DataRow)
             {
-
                 int i = 0;
                 foreach (TableCell c in e.Row.Cells)
                 {
@@ -113,7 +112,6 @@ namespace SOSGrid.Layouts.SOSGrid
                         if (String.IsNullOrEmpty(c.Text) || c.Text == "&nbsp;")
                         {
                             c.BackColor = Color.White;
-
                         }
                         else if (c.Text == "Online")
                         {
