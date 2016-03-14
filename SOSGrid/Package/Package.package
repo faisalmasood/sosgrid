@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="4566ccd0-5b56-463b-b8a7-f44852accb2b" solutionId="4566ccd0-5b56-463b-b8a7-f44852accb2b" resetWebServer="false" sharePointProductVersion="15.0" name="SOSGrid" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="e34db550-d725-4998-807f-581cceb0b570" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="f3a20208-1d12-4044-a3be-9a4c4de55b74" />
+  </projectItems>
+</package>
