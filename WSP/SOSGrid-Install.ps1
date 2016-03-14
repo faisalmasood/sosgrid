@@ -1,5 +1,6 @@
 # install
-Add-SPSolution "SOSGrid15.wsp"
+$fn = (gci "SOSGrid15.wsp").FullName
+Add-SPSolution $fn
 Install-SPSolution "SOSGrid15.wsp" -GACDeployment
 
 # wait
@@ -11,5 +12,5 @@ do {
 
 # activate for Central Admin
 $ca = Get-SPWebApplication -IncludeCentralAdmin |? {$_.IsAdministrationWebApplication -eq $true} | Get-SPSite
-Activate-Feature SOSGrid_SOSGridMenuFeat -Url $ca[0].Url
+Enable-SPFeature SOSGrid_SOSGridMenuFeat -Url $ca[0].Url -Force -Confirm:$false
 Write-Host "DONE"
