@@ -1,6 +1,6 @@
 # install
-Add-SPSolution "SOSGrid.wsp"
-Install-SPSolution "SOSGrid.wsp" -GACDeployment
+Add-SPSolution "SOSGrid15.wsp"
+Install-SPSolution "SOSGrid15.wsp" -GACDeployment
 
 # wait
 do {
