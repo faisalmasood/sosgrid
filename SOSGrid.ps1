@@ -10,7 +10,7 @@
 .NOTES
 	File Name		: SOSGrid.ps1
 	Author			: Jeff Jones - @spjeff
-	Version			: 1.0
+	Version			: 0.1
 	Last Modified	: 03-15-2015
 .LINK
 	http://www.github.com/spjeff/sosgrid
