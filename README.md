@@ -9,7 +9,7 @@ Gathers all service instance data (Start/Stop) and displays a single farm wide "
 
 ## Sceenshots
 1. output to CSV/HTML/GridView
-![image](https://raw.githubusercontent.com/spjeff/spcrud/master/doc/1.png)
+![image](https://raw.githubusercontent.com/spjeff/sosgrid/master/docs/1.jpg)
 
 ## Contact
 Please drop a line to [@spjeff](https://twitter.com/spjeff) or [spjeff@spjeff.com](mailto:spjeff@spjeff.com)
