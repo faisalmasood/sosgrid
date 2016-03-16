@@ -66,8 +66,8 @@ foreach ($row in $coll) {
         switch ($val)  {
             "Online" {$c="lightgreen"}
             "Disabled" {$c="darkgray"}
-            "Starting" {$c="red"}
-            "Stopping" {$c="red"}
+            "Provisioning" {$c="red"}
+            "Unprovisioning" {$c="red"}
             default {$c=""}
         }
         $html += "<td style='background-color:$c'>$val</td>"
