@@ -5,7 +5,7 @@ Gathers all service instance data (Start/Stop) and displays a single farm wide "
 ## Get Started
 1. download PS1 to server
 2. run as farm admin
-
+3. works on SharePoint 2010, 2013, and 2016
 
 ## Sceenshots
 1. output to CSV/HTML/GridView
