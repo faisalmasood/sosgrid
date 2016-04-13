@@ -60,7 +60,7 @@ $machines |% {
 }
 foreach ($row in $coll) {
     $t = $row.Type
-    $html += "<tr><td><b>$t</b></td>"
+    $html += "<tr><td style='white-space:nowrap'><b>$t</b></td>"
     foreach ($col in $machines) {
         $val = $row."$col"
         switch ($val)  {
