@@ -10,8 +10,8 @@
 .NOTES
 	File Name		: SOSGrid.ps1
 	Author			: Jeff Jones - @spjeff
-	Version			: 0.1
-	Last Modified	: 03-15-2015
+	Version			: 0.11
+	Last Modified	: 01-29-2017
 .LINK
 	http://www.github.com/spjeff/sosgrid
 #>
@@ -64,11 +64,21 @@ foreach ($row in $coll) {
     foreach ($col in $machines) {
         $val = $row."$col"
         switch ($val)  {
-            "Online" {$c="lightgreen"}
-            "Disabled" {$c="darkgray"}
-            "Provisioning" {$c="red"}
-            "Unprovisioning" {$c="red"}
-            default {$c=""}
+            "Online" {
+                $c="lightgreen"
+            }
+            "Disabled" {
+                $c="darkgray"
+            }
+            "Provisioning" {
+                $c="red"
+            }
+            "Unprovisioning" {
+                $c="red"
+            }
+            default {
+                $c=""
+            }
         }
         $html += "<td style='background-color:$c'>$val</td>"
     }
@@ -78,4 +88,4 @@ $html += "</table><p></p><hr/><p>updated $(Get-Date)</p>"
 $file = $file -replace ".csv",".html"
 $html | Out-File $file 
 $file
-start $file
+Start-Process $file
